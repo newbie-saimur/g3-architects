@@ -314,6 +314,10 @@ footer p {
 /* Media Queries for Phones width <= 576px */
 
 @media screen and (max-width: calc(575.9/16 * 1rem)) {
+    .banner-title {
+        font-size: calc(52/16 * 1rem);
+    }
+
     .navbar-container, .detailed-features-section {
         flex-direction: column;
     }

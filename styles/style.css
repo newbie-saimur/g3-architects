@@ -167,6 +167,7 @@ header {
 
 .detailed-features-section {
     gap: 146px;
+    margin-bottom: 100px;
 }
 
 .detailed-features-title {
@@ -228,11 +229,15 @@ header {
 .some-facts-description {
     margin-bottom: 60px;
     max-width: calc(560/16 * 1rem);
-    padding-left: 10px;
+}
+
+.some-facts-content {
+    padding-left: 20px;
 }
 
 .some-facts-title {
-    padding-left: 10px;
+    border-left: 5px solid var(--color-bg);
+    padding-left: 20px;
 }
 
 .facts-container {
@@ -332,12 +337,13 @@ footer p {
         gap: 40px;
     }
 
-    .detailed-features-content {
+    .detailed-features-content, .some-facts-content {
         padding: 0px 10px;
     }
 
     .detailed-features-section {
         gap: 16px;
+        margin-bottom: 15px;
     }
 
     .featured-architect {
@@ -393,8 +399,7 @@ footer p {
         margin: 0 auto;
     }
 
-    .sponsor-description, .banner-description,
-    .some-facts-description, .some-facts-title {
+    .sponsor-description, .banner-description {
         padding: 0 10px;
     }
 }
@@ -414,6 +419,7 @@ footer p {
     .detailed-features-section {
         flex-direction: column;
         gap: 16px;
+        margin-bottom: 15px;
     }
 
     .featured-architect {
@@ -436,12 +442,6 @@ footer p {
     .detailed-features-image{
         text-align: center;
         margin-bottom: 25px;
-    }
-
-    .some-facts-description, .some-facts-title {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .facts-container {
@@ -471,8 +471,7 @@ footer p {
         margin-left: -40%;
     }
 
-    .sponsor-description, .banner-description,
-    .some-facts-description, .some-facts-title {
+    .sponsor-description, .banner-description {
         padding: 0 10px;
     }
 }

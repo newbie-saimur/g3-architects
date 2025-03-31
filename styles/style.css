@@ -62,7 +62,7 @@ section, nav, footer p {
     font-size: calc(20/16 * 1rem);
     font-weight: 600;
     border: none;
-    cursor: pointer;
+    
     transition: all 0.5s ease-in-out;
 }
 
@@ -331,6 +331,10 @@ footer p {
         margin-bottom: 30px;
     }
 
+    .features-images {
+        justify-items: center;
+    }
+
     .menu-items {
         padding-left: 0;
         margin: 0;
@@ -423,6 +427,11 @@ footer p {
         margin-bottom: 15px;
     }
 
+    .features-images {
+        margin: 30px auto 0 auto;
+        gap: 50px;
+    }
+
     .featured-architect {
         padding: 0 20px;
         width: calc(100% - 40px);
@@ -443,6 +452,10 @@ footer p {
     .detailed-features-image{
         text-align: center;
         margin-bottom: 25px;
+    }
+
+    .detailed-features-content {
+        padding: 0px 20px;
     }
 
     .facts-container {

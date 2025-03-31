@@ -78,6 +78,7 @@ section, nav, footer p {
 .navbar-container {
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 110px;
 }
 
 .brand-name {
@@ -107,7 +108,7 @@ header {
 }
 
 .banner-content {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .banner-title {
@@ -316,6 +317,11 @@ footer p {
 @media screen and (max-width: calc(575.9/16 * 1rem)) {
     .banner-title {
         font-size: calc(52/16 * 1rem);
+        font-weight: 600;
+    }
+
+    .navbar-container {
+        margin-bottom: 50px;
     }
 
     .navbar-container, .detailed-features-section {
@@ -416,6 +422,19 @@ footer p {
 /* Media Queries for Tablets width <= 992px */
 
 @media screen and (min-width: calc(576/16 * 1rem)) and (max-width: calc(991.9/16 * 1rem)) {
+    .banner-title {
+        font-size: calc(56/16 * 1rem);
+    }
+
+    .brand-name {
+        font-size: calc(42/16 * 1rem);
+    }
+
+    .navbar-container {
+        margin-bottom: 70px;
+        padding: 0 20px;
+    }
+
     .features-images {
         padding: 0 15px;
         margin-top: 30px;
